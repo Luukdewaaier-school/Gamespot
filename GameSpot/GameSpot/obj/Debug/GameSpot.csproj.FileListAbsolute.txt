@@ -35,3 +35,5 @@ c:\users\luuk\documents\visual studio 2013\Projects\GameSpot\GameSpot\bin\Micros
 c:\users\luuk\documents\visual studio 2013\Projects\GameSpot\GameSpot\obj\Debug\GameSpot.csprojResolveAssemblyReference.cache
 c:\users\luuk\documents\visual studio 2013\Projects\GameSpot\GameSpot\obj\Debug\GameSpot.dll
 c:\users\luuk\documents\visual studio 2013\Projects\GameSpot\GameSpot\obj\Debug\GameSpot.pdb
+C:\Users\Luuk\Documents\GitHub\Gamespot\GameSpot\GameSpot\obj\Debug\GameSpot.csprojResolveAssemblyReference.cache
+C:\Users\Luuk\Documents\GitHub\Gamespot\GameSpot\GameSpot\obj\Debug\GameSpot.dll

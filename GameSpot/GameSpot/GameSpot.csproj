@@ -250,6 +250,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\Administration.cs" />
+    <Content Include="App_Code\Post.cs" />
+    <Content Include="App_Code\Review.cs" />
+    <Content Include="App_Code\Nieuws.cs" />
+    <Content Include="App_Code\Show.cs" />
+    <Content Include="App_Code\Videoclip.cs" />
+    <Content Include="App_Code\Game.cs" />
+    <Content Include="App_Code\Gebruiker.cs" />
+    <Content Include="App_Code\Database.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="Review.aspx.cs">
@@ -329,12 +337,14 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
