@@ -17,6 +17,7 @@ namespace GameSpot.App_Code
         private static string password = "classified";
         private static string oracleDatabase = "User Id=" + username + ";Password=" + password + ";Data Source= " + host + ";";
 
+        public static DataTable RunQuery(string query)
         {
             //Open connection
             OracleConnection connection = new OracleConnection();
