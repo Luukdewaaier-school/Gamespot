@@ -20,9 +20,9 @@ namespace GameSpot.App_Code
 
         public string geslacht { get; set; }
 
-        public DateTime geboortedatum { get; set; }
+        public string geboortedatum { get; set; }
 
-        public DateTime lidSinds { get; set; }
+        public string lidSinds { get; set; }
 
         public string locatie { get; set; }
 
@@ -35,7 +35,7 @@ namespace GameSpot.App_Code
         public bool isBeheerder { get; set; }
 
         //Constructor
-        public Gebruiker(int gebruikerId, string username, string voornaam, string achternaam, string emailadres, string geslacht, DateTime geboortedatum, DateTime lidSinds,
+        public Gebruiker(int gebruikerId, string username, string voornaam, string achternaam, string emailadres, string geslacht, string geboortedatum, string lidSinds,
             string locatie, string beschrijving, string signature, string avatar, bool isBeheerder)
         {
             this.gebruikerId = gebruikerId;

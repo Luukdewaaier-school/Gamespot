@@ -5,7 +5,7 @@ using System.Web;
 
 namespace GameSpot.App_Code
 {
-    public abstract class Post
+    public class Post
     {
         //Properties
         public int postId { get; set; }
@@ -16,12 +16,12 @@ namespace GameSpot.App_Code
 
         public string titel { get; set; }
 
-        public DateTime postDatum { get; set; }
+        public string postDatum { get; set; }
 
         public string content { get; set; }
 
         //Constructor
-        public Post(int postId, int auteur, int theGame, string titel, DateTime postDatum, string content)
+        public Post(int postId, int auteur, int theGame, string titel, string postDatum, string content)
         {
             this.postId = postId;
             this.auteur = auteur;

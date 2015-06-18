@@ -12,7 +12,8 @@ namespace GameSpot.App_Code
 
         public double rating { get; set; }
 
-        public Review(int postId, int auteur, int theGame, string titel, DateTime postDatum, string content, string platform, double rating) 
+        //Constructor
+        public Review(int postId, int auteur, int theGame, string titel, string postDatum, string content, string platform, double rating) 
             : base (postId, auteur, theGame, titel, postDatum, content)
         {
             this.platform = platform;

@@ -18,7 +18,7 @@ namespace GameSpot.App_Code
 
         public string platform { get; set; }
 
-        public DateTime releaseDatum { get; set; }
+        public string releaseDatum { get; set; }
 
         public double rating { get; set; }
 
@@ -27,7 +27,7 @@ namespace GameSpot.App_Code
         public double metacriticRating { get; set; }
 
         //Constructor
-        public Game(int gameId, string titel, string developer, string genre, string platform, DateTime releaseDatum, double rating, double gebruikerRating, double metacriticRating)
+        public Game(int gameId, string titel, string developer, string genre, string platform, string releaseDatum, double rating, double gebruikerRating, double metacriticRating)
         {
             this.gameId = gameId;
             this.titel = titel;
