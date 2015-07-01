@@ -10,11 +10,18 @@ namespace GameSpot
     
     public class Administration
     {
+        /// <summary>
+        /// Fields voor de werking van Administration klasse
+        /// </summary>
         public static List<Nieuws> nieuws;
         public static List<Review> reviews;
         public static List<Videoclip> videoclips;
         public static List<Show> shows;
+        public static Database db;
 
+        /// <summary>
+        /// Een functie om de lijst van nieuws up te daten
+        /// </summary>
         public static void UpdateNieuwsList()
         {
             nieuws = new List<Nieuws>();
@@ -34,6 +41,9 @@ namespace GameSpot
             }           
         }
 
+        /// <summary>
+        /// Een functie om de lijst van reviews up te daten
+        /// </summary>
         public static void UpdateReviewList()
         {
             reviews = new List<Review>();
@@ -58,6 +68,9 @@ namespace GameSpot
             }
         }
 
+        /// <summary>
+        /// Een functie om de lijst van videoclips en shows up te daten
+        /// </summary>
         public static void UpdateVideosList()
         {
             videoclips = new List<Videoclip>();
@@ -108,44 +121,68 @@ namespace GameSpot
                 }               
             }            
         }
+
+        /// <summary>
+        /// Een functie om één bepaald nieuws item op te halen, aan de hand van het postId
+        /// </summary>
+        /// <param name="post"></param> Een integer die voor een postId staat
+        /// <returns> Returned een Nieuws instantie</returns>
         public static Nieuws GetNieuwsData(int post)
         {
             foreach (Nieuws nieuw in nieuws)
             {
-                if (nieuw.postId = post)
+                if (nieuw.postId == post)
                 {
                     return nieuw;
                 }
             }
             return null;
         }
+
+        /// <summary>
+        /// Een functie om één bepaalde review op te halen, aan de hand van het postId
+        /// </summary>
+        /// <param name="post"></param> Een integer die voor een postId staat
+        /// <returns> Returned een Review instantie </returns>
         public static Review GetReviewData(int post)
         {
             foreach (Review review in reviews)
             {
-                if (review.postId = post)
+                if (review.postId == post)
                 {
                     return review;
                 }
             }
             return null;
         }
+
+        /// <summary>
+        /// Een functie om één bepaalde show op te haalen, aan de hand van het postId
+        /// </summary>
+        /// <param name="post"></param> Een integer die voor een postId staat
+        /// <returns> Returned een Show instantie</returns>
         public static Show GetShowData(int post)
         {
             foreach (Show show in shows)
             {
-                if (show.postId = post)
+                if (show.postId == post)
                 {
                     return show;
                 }
             }
             return null;
         }
+
+        /// <summary>
+        /// Een functie om één bepaalde videoclip op te halen, aan de hand van het postId
+        /// </summary>
+        /// <param name="post"></param> Een integer die voor een postId staat
+        /// <returns> Returned een Videoclip instantie</returns> 
         public static Videoclip GetVideoclipData(int post)
         {
             foreach (Videoclip videoclip in videoclips)
             {
-                if (videoclip.postId = post)
+                if (videoclip.postId == post)
                 {
                     return videoclip;
                 }

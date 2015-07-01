@@ -44,6 +44,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -250,14 +251,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\Administration.cs" />
-    <Content Include="App_Code\Post.cs" />
-    <Content Include="App_Code\Review.cs" />
-    <Content Include="App_Code\Nieuws.cs" />
-    <Content Include="App_Code\Show.cs" />
-    <Content Include="App_Code\Videoclip.cs" />
-    <Content Include="App_Code\Game.cs" />
-    <Content Include="App_Code\Gebruiker.cs" />
-    <Content Include="App_Code\Database.cs" />
+    <Compile Include="App_Code\Post.cs" />
+    <Compile Include="App_Code\Review.cs" />
+    <Compile Include="App_Code\Nieuws.cs" />
+    <Compile Include="App_Code\Show.cs" />
+    <Compile Include="App_Code\Videoclip.cs" />
+    <Compile Include="App_Code\Game.cs" />
+    <Compile Include="App_Code\Gebruiker.cs" />
+    <Compile Include="App_Code\Database.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="Review.aspx.cs">
@@ -352,6 +353,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Old_App_Code\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />

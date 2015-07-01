@@ -7,9 +7,27 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GameSpot
-{
-    public partial class Video
-    {
+namespace GameSpot {
+    
+    
+    public partial class Video {
+        
+        /// <summary>
+        /// tblVideoclip control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table tblVideoclip;
+        
+        /// <summary>
+        /// tblShow control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table tblShow;
     }
 }
