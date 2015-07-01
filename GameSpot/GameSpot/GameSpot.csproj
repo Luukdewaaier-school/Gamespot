@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Oracle.DataAccess, Version=2.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -252,8 +253,8 @@
   <ItemGroup>
     <Compile Include="App_Code\Administration.cs" />
     <Compile Include="App_Code\Post.cs" />
-    <Compile Include="App_Code\Review.cs" />
-    <Compile Include="App_Code\Nieuws.cs" />
+    <Compile Include="App_Code\ReviewClass.cs" />
+    <Compile Include="App_Code\NieuwsClass.cs" />
     <Compile Include="App_Code\Show.cs" />
     <Compile Include="App_Code\Videoclip.cs" />
     <Compile Include="App_Code\Game.cs" />

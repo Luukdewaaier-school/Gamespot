@@ -5,7 +5,7 @@ using System.Web;
 
 namespace GameSpot.App_Code
 {
-    public class Nieuws : Post
+    public class NieuwsClass : Post
     {
         /// <summary>
         /// De constructor van de klasse post
@@ -16,7 +16,7 @@ namespace GameSpot.App_Code
         /// <param name="titel"></param> De titel van de nieuws-post
         /// <param name="postDatum"></param> De postdatum van de nieuws-post
         /// <param name="content"></param> De content van de nieuws-post
-        public Nieuws(int postId, int auteur, int theGame, string titel, string postDatum, string content)
+        public NieuwsClass(int postId, int auteur, int theGame, string titel, string postDatum, string content)
             : base(postId, auteur, theGame, titel, postDatum, content)
         {            
         }

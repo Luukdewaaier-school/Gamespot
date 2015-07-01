@@ -5,7 +5,7 @@ using System.Web;
 
 namespace GameSpot.App_Code
 {
-    public class Review : Post
+    public class ReviewClass : Post
     {
         /// <summary>
         /// Properties van de klasse Review
@@ -25,7 +25,7 @@ namespace GameSpot.App_Code
         /// <param name="content"></param> De content van de review-post
         /// <param name="platform"></param> Het platform waar de review-post op gemaakt is
         /// <param name="rating"></param> De rating die de review-post heeft gekregen
-        public Review(int postId, int auteur, int theGame, string titel, string postDatum, string content, string platform, double rating) 
+        public ReviewClass(int postId, int auteur, int theGame, string titel, string postDatum, string content, string platform, double rating) 
             : base (postId, auteur, theGame, titel, postDatum, content)
         {
             this.platform = platform;

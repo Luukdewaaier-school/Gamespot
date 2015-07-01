@@ -16,7 +16,7 @@ namespace GameSpot
             Administration.UpdateReviewList();
 
             //Elke item uit de list aan de ASP tabel toevoegen
-            foreach (Review review in Administration.reviews)
+            foreach (ReviewClass review in Administration.reviews)
             {
                 TableRow row = new TableRow();
                 TableCell cell = new TableCell();
